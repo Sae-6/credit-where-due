@@ -6,5 +6,10 @@ n2=int(input2)
 total_3_credit_hours = n1 * 3
 total_credit_hours = total_3_credit_hours + n2
 print(f"The total number of credit hours you are taking is {total_credit_hours}.")
-int:total_credit_hours*2 
+print("Spend around double this time outside of class for studying")
+input3=input("How many hours a week do you spend travelling/commuting?")
+n3=int(input3)
+commute= total_credit_hours*2 + n3
+print(f"we'll add this time to {total_credit_hours*2} to get {commute}")
+
 
