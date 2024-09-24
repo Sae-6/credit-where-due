@@ -10,6 +10,11 @@ print("Spend around double this time outside of class for studying")
 input3=input("How many hours a week do you spend travelling/commuting?")
 n3=int(input3)
 commute= total_credit_hours*2 + n3
-print(f"we'll add this time to {total_credit_hours*2} to get {commute}")
-
-
+print(f"we'll add this time to {total_credit_hours*2} to get {commute} total hours so far")
+sleep=8*7
+eating=1*7
+input4=input("how many hours do you shower in a overall week?")
+n4=int(input4)
+print(f"To get your used up time for the week we also need to add up a average of {sleep} hours of sleep per week plus eating which will take around {eating} hours per week ")
+final_time=commute+eating+sleep
+print(f"Total time spent busy during a 168 hour week is {final_time} hours, leaving you with {168-final_time} hours of free time")
